@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+
+.nav_menu{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+    .nav_logo, .nav_icons1, .nav_icons2 {
+        display: none;
+    }
+    .navbar-menu.show {
+        display: flex;
+    }
+    .navbar-menu {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 1vh;        
+        background: white;
+        width: 100%;
+        padding: 15px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        gap: 1rem;
+    }
+    .navbar-menu li a:hover {
+        color: rgb(57, 169, 162);
+        
+    }
+    .nav_icons img{
+        margin-left: 10vw;
+    }
+    .navbar{
+        height: 4vw;
+    }
+    .navbar-menu ul{
+        flex-direction: column;
+    }
+
+
+
+}
