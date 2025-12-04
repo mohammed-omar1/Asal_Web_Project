@@ -37,3 +37,18 @@ section {
     max-width: 6%;
     height: auto;
 }
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    max-width: 80%;
+    padding: 0;
+}
+
+.navbar-menu li a {
+    max-width: 80%;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3vw;
+    font-family: sans-serif;
+}
