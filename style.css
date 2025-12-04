@@ -69,3 +69,24 @@ section {
 .nav_menu {
     display: none;
 }
+
+
+#Home {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    max-width: 100%;
+    background: url(img/bg.png) no-repeat center center;
+    background-size: 85% auto;
+
+}
+
+
+#Home .container {
+    display: flex;        
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 85%;
+    gap: 5%;
+}
