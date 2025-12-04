@@ -52,3 +52,17 @@ section {
     font-size: 1.3vw;
     font-family: sans-serif;
 }
+.nav_icons img {
+    max-width: 10%;
+    max-height: 10%;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.nav_icons {
+    gap : 5%;
+    max-width: 16%;
+    max-height: 16%;
+    display: flex;
+    align-items: center;
+}
