@@ -4,3 +4,22 @@
     box-sizing: border-box;
     font-family: "Arial", sans-serif;
 }
+
+
+/* Variables */
+:root {
+    --color-primary: #00a6a6;
+    --color-secondary: #333;
+    --color-text: #555;
+    --color-background: #fff;
+    --color-card: #fff;
+    --color-border: #eee;
+    --color-header: #fff;
+    --color-footer: #EAEAEA;
+    --color-footer-text: #333;
+    --shadow-default: rgba(0, 0, 0, 0.1);
+    --shadow-hover: rgba(0, 123, 255, 0.3);
+    --section-alt: #f9f9f9;
+}
+
+
