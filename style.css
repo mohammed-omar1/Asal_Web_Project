@@ -57,6 +57,7 @@ h2 {
     grid-template-columns: repeat(5, 1fr);
     gap: 80px;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: -10%;
     
 }
