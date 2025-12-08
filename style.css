@@ -55,8 +55,9 @@ h2 {
 .book-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 40px;
+    gap: 80px;
     margin-top: 20px;
+    margin-left: -10%;
     
 }
 
