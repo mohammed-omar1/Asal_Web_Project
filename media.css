@@ -1,5 +1,18 @@
 @media screen and (max-width: 600px) {
 
+    .cards .card {
+        width: 60% ; 
+        gap: 1rem !important;
+        height: 25% !important;
+    }
+    .cards img{
+        height: 20%;
+        width: 20%;
+    }
+    #about .container {
+        margin-top: 10%;
+    }
+    
 .nav_menu{
         display: block;
         width: 30px;
