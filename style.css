@@ -151,6 +151,7 @@ h2 {
 .Customer_Reviews {
     background-color: var(--section-alt);
     padding: 4rem 
+
 }
 
 .Review_Grid {
@@ -224,4 +225,52 @@ h2 {
     margin-bottom: 0.5em;
     color: #00bcd4;
     font-size: 0.8em;
+}
+
+
+/* Digital Book Section */
+.promo-banner {
+   background-color: var(--section-bg);
+    position: relative;
+    overflow: hidden;
+    padding: 10rem 0;
+    background-image: url("image/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.promo-banner .wrap{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    top:6.5rem;
+    right: 3.1rem;
+}
+.promo-content {
+    position: relative;
+    z-index: 2;
+}
+
+.primary-btn {
+    display: inline-block;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 6px 20px;
+    margin-left: -10px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.primary-btn:hover {
+    background-color: #008b8b;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--shadow-hover);
 }
