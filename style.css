@@ -143,3 +143,85 @@ h2 {
     color: #00bcd4;
     font-size: 0.8em;
 }
+
+
+
+
+/* Reviews Section */
+.Customer_Reviews {
+    background-color: var(--section-alt);
+    padding: 4rem 
+}
+
+.Review_Grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+    gap: 30px;
+}
+
+.Review_Card {
+    background-color: var(--card-bg, #fff);
+    border-radius: .2rem;
+    padding: 1rem;
+    box-shadow: 0 0 5px var(--primary-color, #2596be);
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Reviewer_Profile {
+      display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.Reviewer_Profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 6px;
+    object-fit: cover;
+}
+
+.Reviewer_Profile h4 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.Review_Body {
+    position: relative;
+    flex-grow: 1;
+}
+
+.quote-mark {
+    position: absolute;
+    top: -7rem;
+    right: -0.5rem;
+    opacity: 0.8;
+    font-size: 4rem;
+    color: var(--border-color, #EAEAEA);
+    font-family: 'Georgia', serif;
+    z-index: 0;
+    line-height: 1;
+}
+.Review_Body p{
+    position: relative;
+    font-size: .6rem;
+    line-height: 1.5;
+    color: #555;
+    z-index: 1;
+    margin: 0;
+    padding-top: .1rem;
+}
+
+.reviews_stars{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: #00bcd4;
+    font-size: 0.8em;
+}
