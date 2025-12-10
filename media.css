@@ -1,3 +1,68 @@
+@media screen and (max-width: 1499px) {
+    .book-grid{
+        grid-template-columns: repeat(4,1fr);  
+        
+    }
+
+    .book-card{  
+        align-self: center; 
+    }
+
+    .Review_Grid{
+        grid-template-columns: repeat(4,1fr);  
+
+    }
+  
+
+    #footer .columns{
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+   
+    .book-grid{
+        grid-template-columns: repeat(4,1fr);  
+        
+    }
+
+    .book-card{  
+        align-self: center; 
+    }
+
+    .Review_Grid{
+        grid-template-columns: repeat(4,1fr);  
+
+    }
+  
+
+    #footer .columns{
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .book-grid{
+        grid-template-columns: repeat(3,1fr);  
+        
+    }
+
+    .book-card{  
+        align-self: center; 
+    }
+
+    .Review_Grid{
+        grid-template-columns: repeat(4,1fr);  
+
+    }
+  
+
+    #footer .columns{
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
+}
 @media screen and (max-width: 1200px) {
     .Featured .feat_btn {
         height: 3vw;
@@ -29,11 +94,52 @@
     #Featured p{
         margin-bottom: 0.5vw !important;
     }
+
+    .book-grid{
+        grid-template-columns: repeat(3,1fr);  
+        
+    }
+
+    .book-card{  
+        align-self: center; 
+    }
+
+    .Review_Grid{
+        grid-template-columns: repeat(4,1fr);  
+
+    }
+  
+
+    #footer .columns{
+        grid-template-columns: repeat(5, 1fr);
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width: 690px){
     #Featured .cards .card{
         height: auto !important;
+    }
+
+    
+    .book-grid{
+        grid-template-columns: repeat(2,1fr);  
+        
+    }
+
+    .book-card{  
+        align-self: center; 
+    }
+
+    .Review_Grid{
+        grid-template-columns: repeat(2,1fr);  
+
+    }
+
+
+    #footer .columns{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
     }
 }
 
@@ -121,6 +227,29 @@
     .cards p{
         margin-bottom: 3% !important;
     }
+
+    .book-grid{
+        grid-template-columns: repeat(2,1fr);  
+        
+    }
+
+    .book-card{  
+        align-self: center; 
+    }
+
+    .Review_Grid{
+        grid-template-columns: 100%;  
+
+    }
+
+
+    #footer .columns{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    
+
 }
 @media screen and (max-width: 550px) {
     .cards .card {
@@ -128,4 +257,21 @@
         gap: 1rem !important;
         height: 28%;
     }
+
+    .book-grid{
+        grid-template-columns: 1fr;  
+        
+    }
+
+    .book-card{
+        width: 270px;  
+        align-self: center; 
+    }
+
+    .Review_Grid{
+        grid-template-columns: 100%;  
+
+    }
+
+
 }
