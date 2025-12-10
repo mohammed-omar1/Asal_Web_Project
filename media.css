@@ -1,4 +1,8 @@
-
+@media screen and (max-width: 1200px) {
+    .Featured .feat_btn {
+        height: 3vw;
+    }
+}
 
 @media screen and (max-width: 1000px) {
     .cards .card {
@@ -19,9 +23,19 @@
         height: auto;
     }
   
-        
+    #Featured .cards .card{
+        width: 1vw !important;
+    }
+    #Featured p{
+        margin-bottom: 0.5vw !important;
+    }
 }
 
+@media screen and (max-width: 690px){
+    #Featured .cards .card{
+        height: auto !important;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .cards .card {
@@ -74,6 +88,24 @@
         flex-direction: column;
     }
    
+    #Featured .container {
+        width: 95% !important;
+        margin: 0;
+    }
+    #Featured .cards .card{
+        min-width: 20vw !important;
+        height: auto !important;
+    }
+    #Featured .cards {
+        width: 80% !important;
+        flex-wrap: nowrap !important;
+    }
+    #Featured .cards-wrapper {
+        overflow-x: auto !important;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 602px){
     .cards {
