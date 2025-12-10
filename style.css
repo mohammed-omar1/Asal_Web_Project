@@ -24,6 +24,20 @@ section {
     align-items: center;
     justify-content: center ;
 }
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    z-index: 999;
+}
+
 .container-nav {
     max-width: 80%;
     margin: auto;
@@ -37,6 +51,7 @@ section {
     max-width: 6%;
     height: auto;
 }
+
 .navbar-menu {
     list-style: none;
     display: flex;
@@ -52,6 +67,7 @@ section {
     font-size: 1.3vw;
     font-family: sans-serif;
 }
+
 .nav_icons img {
     max-width: 10%;
     max-height: 10%;
@@ -66,10 +82,10 @@ section {
     display: flex;
     align-items: center;
 }
-.nav_menu {
+
+.nav_list {
     display: none;
 }
-
 
 #Home {
     display: flex;
