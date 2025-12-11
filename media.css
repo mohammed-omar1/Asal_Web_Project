@@ -63,6 +63,12 @@
         gap: 20px;
     }
 }
+@media screen and (max-width: 1200px) {
+    .Featured .feat_btn {
+        height: 3vw;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .cards .card {
         width: 30% ; 
